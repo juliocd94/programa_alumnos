@@ -34,6 +34,7 @@ float mayor7 = 0;
 int mayor_index7 = 0;
 float mayor = 0;
 float cuantoscursos = 0;
+int finalizar = 0;
 
 
 
@@ -243,10 +244,12 @@ cout<<"--------------------------------------------------------------"<<endl;
 			}
 			cout<<"Promedio general del colegio es: "<<(promedio_curso7/cuantos_7 + promedio_curso8/cuantos_8 + promedio_curso9/cuantos_9) / cuantoscursos<<endl;
 			cout<<"-------------------------------------------------------"<<endl<<endl;
-			
-			
-			cout<<endl<<endl<<"Finalizar...";
 		}	
-	}	
+	}
+	cout<<endl<<endl<<"Pres->1 Finalizar...";
+			cin>>finalizar;
+			if(finalizar == 1){
+				cout<<"Fin..";
+			}	
 	return 0;  
 }		                                                                            
